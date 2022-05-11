@@ -50,6 +50,12 @@ const About = () => {
         <span>&nbsp;Good Apps </span>means<span> Good Business</span>
       </h2>
 
+      <div className="yoma__about">
+        <p>Hello, I'm Yoma a <span className="yoma__about-highlight">frontend Developer</span> with a lot to learn. I am at the moment exploring the awesomeness of <span className="yoma__about-highlight">JAVASCRIPT 🚀</span>, it frameworks and libraries <span className="yoma__about-highlight">(React JS especially)</span>, and so much more.</p>
+        <p>I am a frontend developer with more than a year of coding frontend applications.</p>
+        <p>I would love to get on projects with positive people to boost my potentials and skills.</p>
+      </div>
+
       <div className="app__profiles">
           {
             abouts.map((about, index) => (

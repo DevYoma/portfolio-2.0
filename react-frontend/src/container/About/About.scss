@@ -40,3 +40,22 @@
         }
     }
 }
+
+.yoma__about{
+    margin: 0 auto;
+    // border: 1px solid red;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 5vh;
+
+    @media screen and (max-width:768px){
+        font-size: 1rem;
+    }
+    
+}
+
+
+.yoma__about-highlight{
+    color: var(--secondary-color);
+    font-weight: bold;
+}

@@ -6,6 +6,7 @@ import ReactTooltip from 'react-tooltip'
 import { AppWrap, MotionWrap } from '../../Wrapper'
 import { urlFor, client } from '../../client'
 
+
 const Skills = () => {
   const [skills, setSkills] = useState([])
   const [experiences, setExperiences] = useState([])
@@ -52,7 +53,10 @@ const Skills = () => {
         </motion.div>
 
         {/* EXPERIENCE */}
-        <motion.div className='app__skills-exp'>
+        <motion.div 
+          // style={{ border: "1px solid red" }}
+          className='app__skills-exp'
+        >
             {
               experiences?.map((experience) => (
                  <motion.div
@@ -64,6 +68,7 @@ const Skills = () => {
                    
                    <motion.div
                     className='app__skills-exp-works'
+                    // style={{ border: "1px solid green" }}
                    >
                      {
                        experience.works.map((work) => (
@@ -73,21 +78,14 @@ const Skills = () => {
                               transition={{ duration: 0.5 }}
                               key={work.name}
                               className='app__skills-exp-work'
-                              // data-tip
-                              // data-for={work.name}
                             >
                               <h4 className="bold-text">{work.name}</h4>
                               <p className="p-text">{work.company}</p>
+                              <p className="p-text">
+                                {work.desc}
+                              </p>
 
-                              <ReactTooltip
-                              id={work.name}
-                              effect="solid"
-                              arrowColor="#fff"
-                              className="skills-tooltip"
-                              
-                            >
-                              {work.desc}
-                            </ReactTooltip>
+                              {/* {work.desc} */}
                             </motion.div>
                             {/* while we hover over */}
                             

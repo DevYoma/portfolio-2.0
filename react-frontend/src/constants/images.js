@@ -34,8 +34,14 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import yoma from '../assets/yomaImg.png'
+import yoma2 from '../assets/yomaImg2.png'
+import yomaBG from '../assets/yomaBG.jpg'
 
 export default {
+  yomaBG,
+  yoma2,
+  yoma,
   email,
   mobile,
   api,
