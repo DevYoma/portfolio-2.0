@@ -42,7 +42,7 @@ const Header = () => {
 
       <motion.div
         whileInView={{opacity: [0, 1],  }}
-        transition={{ duration: 2.5, delayChildren: 0.5 }}
+        transition={{ duration: 0.5, delayChildren: 0.5 }}
         className='app__header-img'>
         <img src={images.yoma} alt="profile_bg" />
         <motion.img
