@@ -17,6 +17,7 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import PortfolioPicture from '../assets/portPic.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -39,6 +40,7 @@ import yoma2 from '../assets/yomaImg2.png'
 import yomaBG from '../assets/yomaBG.jpg'
 
 export default {
+  PortfolioPicture,
   yomaBG,
   yoma2,
   yoma,
