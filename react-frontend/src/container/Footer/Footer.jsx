@@ -27,6 +27,11 @@ const Footer = () => {
   }
 
   const handleSubmit = (e) => {
+    if(name === '' || email === "" || message === "" ){
+      alert("The inputs fields cannot be empty")
+      return
+    }
+
     setLoading(true)
 
     const contact = {
@@ -71,6 +76,7 @@ const Footer = () => {
             value={name}
             name="name"
             onChange={handleChangeInput}
+            required
           />
         </div>
 
@@ -82,6 +88,7 @@ const Footer = () => {
             name="email"
             value={email}
             onChange={handleChangeInput}
+            required
           />
         </div>
 
@@ -92,6 +99,7 @@ const Footer = () => {
             value={message}
             name="message"
             onChange={handleChangeInput}
+            required
           />
         </div>
 
