@@ -51,9 +51,9 @@ const About = () => {
       </h2>
 
       <div className="yoma__about">
-        <p>Hello, I'm Yoma a <span className="yoma__about-highlight">frontend Developer</span> with a lot to learn. I am at the moment exploring the awesomeness of <span className="yoma__about-highlight">JAVASCRIPT 🚀</span>, it frameworks and libraries <span className="yoma__about-highlight">(React JS especially)</span>, and so much more.</p>
-        <p>I am a frontend developer with more than a year of coding frontend applications.</p>
-        <p>I would love to get on projects with positive people to boost my potentials and skills.</p>
+        <p>Hello, I'm Yoma, <span className="yoma__about-highlight">a Frontend Developer</span> with a lot to learn. I am exploring the awesomeness of <span className="yoma__about-highlight">JAVASCRIPT 🚀</span>, it frameworks and libraries at the moment <span className="yoma__about-highlight">(React JS especially)</span>, and so much more.</p>
+        <p>I am a Frontend Developer with a year of experience of coding Frontend applications.</p>
+        <p>I would love to get on projects with positive people to boost my potential and skills.</p>
       </div>
 
       <div className="app__profiles">
