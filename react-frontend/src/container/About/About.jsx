@@ -5,32 +5,6 @@ import { motion } from 'framer-motion'
 import { urlFor, client } from '../../client'
 import { AppWrap, MotionWrap } from '../../Wrapper'
 
-// const abouts = [
-//   {
-//     title: "Frontend Engineer",
-//     description: "I am a good Frontend Engineer",
-//     imageUrl: images.about01
-//   },
-//   {
-  // I have experience working with HTML CSS SCSS and other design libraries and frameworks
-//     title: "React JS Developer",
-//     description: "Building the web component by component",
-//     imageUrl: images.about02
-//   },
-//   {
-//     title: "UI/UX",
-//     description: "I build reuseable UI components",
-//     imageUrl: images.about03
-//   },
-//   {
-//     title: "Backend Developer",
-//     description: "I build the logic of the web",
-//     imageUrl: images.about04
-//   }
-// ]
-
-// https://
-
 const About = () => {
   const [abouts, setAbouts] = useState([])
 
@@ -46,14 +20,13 @@ const About = () => {
   return (
     <React.Fragment>
       <h2 className="head-text">
-        I Know that 
-        <span>&nbsp;Good Apps </span>means<span> Good Business</span>
+        About <span>Me</span>
       </h2>
 
       <div className="yoma__about">
-        <p>Hello, I'm Yoma, <span className="yoma__about-highlight">a Frontend Developer</span> with a lot to learn. I am exploring the awesomeness of <span className="yoma__about-highlight">JAVASCRIPT 🚀</span>, it frameworks and libraries at the moment <span className="yoma__about-highlight">(React JS especially)</span>, and so much more.</p>
-        <p>I am a Frontend Developer with a year of experience of coding Frontend applications.</p>
-        <p>I would love to get on projects with positive people to boost my potential and skills.</p>
+        <p>Hello, I'm Yoma, <span className="yoma__about-highlight">a Frontend Developer</span> with a strong passion for exploring the awesomeness of <span className="yoma__about-highlight">JAVASCRIPT </span>, it frameworks and libraries<span className="yoma__about-highlight"> especially React JS</span></p>
+        <p>Seeking collaborative projects to boost skills and potential.</p>
+        <p>Let's work together to create amazing experiences and push the boundaries of what we can achieve! </p>
       </div>
 
       <div className="app__profiles">
